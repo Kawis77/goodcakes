@@ -1,4 +1,4 @@
-package com.goodcakes.goodcakes;
+package com.goodcakes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
