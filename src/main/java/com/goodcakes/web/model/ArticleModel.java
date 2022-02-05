@@ -10,4 +10,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ArticleModel {
+
+    private Long id;
+    private String author;
+    private String title;
+    private String secondTitle;
+    private String contents;
+
 }
