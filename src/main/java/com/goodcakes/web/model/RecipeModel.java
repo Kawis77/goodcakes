@@ -10,4 +10,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RecipeModel {
+
+    private Long id;
+    private String tittle;
+    private String ingredients;
+    private String description;
 }
