@@ -29,6 +29,7 @@ public class CompanyModel {
     private String description;
     private List<Integer> rating;
     private List<String> comments;
+    private List<ArticleModel> articleModels;
 
 
 
