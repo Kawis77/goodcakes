@@ -1,5 +1,7 @@
 package com.goodcakes.web.model;
 
+import com.goodcakes.dao.entity.ArticleEntity;
+import com.goodcakes.dao.entity.RecipeEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -29,7 +31,8 @@ public class CompanyModel {
     private String description;
     private List<Integer> rating;
     private List<String> comments;
-    private List<ArticleModel> articleModels;
+    private List<ArticleEntity> articleModels;
+    private List<RecipeEntity> recipeEntities;
 
 
 
